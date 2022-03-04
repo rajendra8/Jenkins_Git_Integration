@@ -14,4 +14,5 @@ https://thetechstack.net/create-maven-project-in-github/
    c.Execute ‘git commit -m “initial project setup”‘ this command will commit all staged files to local gitHub repository. We are also providing comment for all these files with -m option.
    d.All files are checked into local repository. Now lets push them to remote gitHub repository. Execute ‘git push origin ~~master~~’
    
-   
+  **Jenkins setup**
+  Link for initiate the setup: https://www.lambdatest.com/blog/how-to-setup-continuous-integration-with-git-jenkins/
