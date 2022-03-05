@@ -16,10 +16,10 @@ public class App
     {
         System.out.println( "Hello World!" );
         System.out.println("add method ca" + add(10,16));
-       WebDriver driver= new SafariDriver();
-    /*    ChromeOptions chromeOptions = new ChromeOptions();
+      // WebDriver driver= new SafariDriver();
+        ChromeOptions chromeOptions = new ChromeOptions();
         WebDriverManager.chromedriver().driverVersion("98.0.4758.109").setup();
-        WebDriver driver = new ChromeDriver(chromeOptions);*/
+        WebDriver driver = new ChromeDriver(chromeOptions);
         driver.get("https://www.apple.com");
        String title= driver.getTitle().toString();
         System.out.println(title);
