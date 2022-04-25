@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Jenkins_Git_Integration" target="16" />
+      <module name="Jenkins_Git_Integration" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
