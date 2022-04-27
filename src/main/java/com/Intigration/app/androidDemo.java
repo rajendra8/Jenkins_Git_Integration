@@ -42,7 +42,6 @@ public class androidDemo {
 
   @Test
   public void testClipboard_Android() throws IOException {
-
     driver.openNotifications();
     String location=driver.location().toString();
    // driver.setGsmVoice(GsmVoiceState.off);
