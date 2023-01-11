@@ -39,6 +39,7 @@ public class StringDemo {
            return in;
        }
        char [] ch=in.toCharArray();
+
        char tem=ch[0];
        ch[0]=ch[ch.length-1];
 

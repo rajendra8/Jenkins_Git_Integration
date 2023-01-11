@@ -16,11 +16,7 @@ public class App
     {
         System.out.println( "Hello World!" );
         System.out.println("add method ca" + add(10,16));
-<<<<<<< HEAD
-      // WebDriver driver= new SafariDriver();
-=======
-     //  WebDriver driver= new SafariDriver();
->>>>>>> 8cbcb12 (adding java logical programm and appium new methodes class)
+
         ChromeOptions chromeOptions = new ChromeOptions();
         WebDriverManager.chromedriver().driverVersion("98.0.4758.109").setup();
         WebDriver driver = new ChromeDriver(chromeOptions);

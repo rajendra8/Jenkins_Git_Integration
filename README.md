@@ -16,3 +16,5 @@ https://thetechstack.net/create-maven-project-in-github/
    
   **Jenkins setup**
   Link for initiate the setup: https://www.lambdatest.com/blog/how-to-setup-continuous-integration-with-git-jenkins/
+  
+  **Api Automation with Restassured**
