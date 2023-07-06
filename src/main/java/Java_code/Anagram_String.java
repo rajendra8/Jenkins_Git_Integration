@@ -13,8 +13,9 @@ public class Anagram_String {
     String in2="Listen";
 
     public boolean anagramTest(String in,String in2){
-      this.in=  in.toUpperCase();
-      this.in2= in2.toUpperCase();
+       boolean status= false;
+      in=  in.toUpperCase();
+      in2= in2.toUpperCase();
         char[] c=in.toCharArray();
         char[] d=in2.toCharArray();
         Arrays.sort(c);
@@ -30,8 +31,11 @@ public class Anagram_String {
             if(c[i] !=d[i]){
                 return false;
             }
+            else {
+                return true;
+            }
         }
-        return true;
+       return status;
     }
 
     @Test

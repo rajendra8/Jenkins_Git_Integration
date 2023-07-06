@@ -1,13 +1,17 @@
 package Java_code;
 
+import org.testng.annotations.Test;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class Test1 {
 
-    String[] in="how refer are you level".split(" ");
+    String[] in="how refer someone to your level".split(" ");
 
-    public void test(){
+
+    @Test(description = "Palindrom test")
+    public void palindromTest(){
         StringBuffer sb=new StringBuffer("abcdef");
           String rev=  sb.reverse().toString();
         //System.out.println(rev);
@@ -33,8 +37,10 @@ public class Test1 {
         }
     }
 
+    @Test(description = "reverse string")
     public void reverseString(){
         String in="Apple";
+        System.out.println(in.length());
         char [] inC=in.toCharArray();
         for (int i = in.length()-1; i >=0 ; i--) {
                 char c =in.charAt(i);
@@ -43,6 +49,8 @@ public class Test1 {
 
     }
 
+
+    @Test(description = "star patter")
     public void testPattern(){
        /* 1
         12
@@ -91,11 +99,6 @@ public class Test1 {
 
         }
     }
-
-
-
-
-
 
 
     public static void main(String []arg){

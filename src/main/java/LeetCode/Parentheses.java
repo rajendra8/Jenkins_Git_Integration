@@ -30,6 +30,8 @@ public class Parentheses {
             System.out.println(stack.isEmpty()+"balanced");
         }
 
+        System.out.println(stack);
+
     }
 
     @Test
@@ -38,6 +40,24 @@ public class Parentheses {
         for(char c:in.toCharArray()){
           stack.push(c);
             System.out.println(stack);
+        }
+    }
+
+
+    @Test
+    public void deque(){
+        String[] name={"rajendra,sahu"};
+        Deque<Character> stack=new ArrayDeque<>();
+        stack.addFirst('a');
+        stack.addFirst('b');
+        stack.push('c');
+        stack.offer('d');
+        stack.addLast('z');
+        stack.addFirst('x');
+        System.out.println(stack);
+        for(char c:in.toCharArray()){
+            stack.push(c);
+           // System.out.println(stack);
         }
     }
 }

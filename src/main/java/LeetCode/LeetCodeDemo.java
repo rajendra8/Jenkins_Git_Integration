@@ -27,8 +27,6 @@ public class LeetCodeDemo {
         String RollNum;
         String Location;
 
-
-
     }
     public static void main(String[] args) {
         LeetCodeDemo test=new LeetCodeDemo();

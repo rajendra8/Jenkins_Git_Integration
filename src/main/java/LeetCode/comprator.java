@@ -2,9 +2,9 @@ package LeetCode;
 
 public class comprator {
 
-    public String caoncat(){
+    public String concat(){
            String space="  ";
-        String []in="I am Rajendra, I am an Software professional".split(",");
+        String []in="I am Rajendra, I am a Software professional".split(",");
         String out="";
         for(String in1:in){
 
@@ -27,7 +27,7 @@ public class comprator {
 
     public static void main(String[] args) {
         comprator test=new comprator();
-        String finalFormat=test.caoncat();
+        String finalFormat=test.concat();
         System.out.println(finalFormat);
     }
 }
