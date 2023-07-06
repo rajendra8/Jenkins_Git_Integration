@@ -33,7 +33,8 @@ jobs:
     - name: First interaction
       uses: actions/first-interaction@v1.1.1
       with:
-        repo-token: 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
+        repo-token: secrets.GIT_TOCKEN
+        #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
          # Token for the repository. Can be passed in using {{ secrets.GITHUB_TOKEN }}
         issue-message: ISSUE MESSGAE
          # Comment to post on an individual's first pull request
